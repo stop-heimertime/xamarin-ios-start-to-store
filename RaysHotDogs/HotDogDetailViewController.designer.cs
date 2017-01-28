@@ -7,11 +7,12 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace RaysHotDogs
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("HotDogDetailViewController")]
+    partial class HotDogDetailViewController
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -23,11 +24,15 @@ namespace RaysHotDogs
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel DescriptionLabel { get; set; }
+        UIKit.UIView HotDogDetailView { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIImageView HotDogImageView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LongDescriptionText { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -57,14 +62,19 @@ namespace RaysHotDogs
                 CancelButton = null;
             }
 
-            if (DescriptionLabel != null) {
-                DescriptionLabel.Dispose ();
-                DescriptionLabel = null;
+            if (HotDogDetailView != null) {
+                HotDogDetailView.Dispose ();
+                HotDogDetailView = null;
             }
 
             if (HotDogImageView != null) {
                 HotDogImageView.Dispose ();
                 HotDogImageView = null;
+            }
+
+            if (LongDescriptionText != null) {
+                LongDescriptionText.Dispose ();
+                LongDescriptionText = null;
             }
 
             if (NameLabel != null) {

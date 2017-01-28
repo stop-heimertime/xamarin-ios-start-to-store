@@ -25,5 +25,10 @@ namespace RaysHotDogs.Core
 		{
 			return hotDogRepository.GetHotDogsForGroup(hotDogGroupId);
 		}
+
+		public HotDog GetHotDogById(int hotDogId)
+		{
+			return hotDogRepository.GetHotDogById(hotDogId);
+		}
 	}
 }

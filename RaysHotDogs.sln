@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.Core", "RaysHot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs", "RaysHotDogs\RaysHotDogs.csproj", "{3FF4DAC7-B31A-4904-B5D7-4B1258BFD8D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaysHotDogs.Core.Test", "RaysHotDogs.Core.Test\RaysHotDogs.Core.Test.csproj", "{540FA60E-F4C5-4436-BE1A-2987EA441ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,5 +41,17 @@ Global
 		{3FF4DAC7-B31A-4904-B5D7-4B1258BFD8D3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{3FF4DAC7-B31A-4904-B5D7-4B1258BFD8D3}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{3FF4DAC7-B31A-4904-B5D7-4B1258BFD8D3}.Debug|iPhone.Build.0 = Debug|iPhone
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|iPhone.Build.0 = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{540FA60E-F4C5-4436-BE1A-2987EA441ADB}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
